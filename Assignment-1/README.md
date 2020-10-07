@@ -61,6 +61,8 @@ All keypoints are indexed by part id.  The parts and their ids are:
 
 In order to run index.html, you have to right click a html file and open it in your browser. In order to edit, you can use vsCode, or any other html and js editors with live inteface Server.
 
+<img src="images/mainpage.png" alt="emotions" style="width: 600px;"/>
+
 ## Code in Sketch.js
 
 The main algorithm that was used:
