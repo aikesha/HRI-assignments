@@ -39,6 +39,10 @@ python test-4.py
 ```
 ![Nao Robot](images/nao_robot.jpg)
 
+<p align="center">
+  <img src="images/nao_robot.jpg"/>
+</p>
+
 
 
 ## Good Luck!
