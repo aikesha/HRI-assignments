@@ -59,7 +59,7 @@ All keypoints are indexed by part id.  The parts and their ids are:
 
 ## How to run?
 
-In order to run index.html, you have to right click a html file and open it in your browser. In order to edit, you can use vsCode, or any other html and js editors with live inteface Server.
+In order to run index.html, you have to right click a html file and open it in your browser. In order to edit, you can use vsCode, or any other html and js editors with live inteface Server. The result looks like:
 
 <img src="images/mainpage.PNG" alt="mainpage" style="width: 600px;"/>
 
