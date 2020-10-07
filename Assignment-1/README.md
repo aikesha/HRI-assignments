@@ -65,7 +65,7 @@ In order to run index.html, you have to right click a html file and open it in y
 
 The main algorithm that was used:
 ```javascript
-if ((pose.keypoints[9].position.y || pose.keypoints[10].position.y) < (pose.keypoints[0].position.y)){
+            if ((pose.keypoints[9].position.y || pose.keypoints[10].position.y) < (pose.keypoints[0].position.y)){
                 document.getElementById("emotion").innerHTML = happy();
                 document.getElementById("seconds1").innerHTML = happy_seconds();
                 document.getElementById("count1").innerHTML = happy_count();
