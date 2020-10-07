@@ -61,4 +61,38 @@ All keypoints are indexed by part id.  The parts and their ids are:
 
 In order to run index.html, you have to right click a html file and open it in your browser. In order to edit, you can use vsCode, or any other html and js editors with live inteface Server.
 
+## Code in Sketch.js
+
+The main algorithm that was used:
+```javascript
+if ((pose.keypoints[9].position.y || pose.keypoints[10].position.y) < (pose.keypoints[0].position.y)){
+                document.getElementById("emotion").innerHTML = happy();
+                document.getElementById("seconds1").innerHTML = happy_seconds();
+                document.getElementById("count1").innerHTML = happy_count();
+            } else if (pose.keypoints[9].position.x > pose.keypoints[5].position.x &&
+                       pose.keypoints[10].position.x < pose.keypoints[6].position.x &&
+                       pose.keypoints[9].position.y > pose.keypoints[7].position.y &&
+                       pose.keypoints[10].position.y > pose.keypoints[8].position.y) {
+                document.getElementById("emotion").innerHTML = angry();
+                document.getElementById("seconds2").innerHTML = angry_seconds();
+                document.getElementById("count2").innerHTML = angry_count();
+            } else if (pose.keypoints[9].position.x > pose.keypoints[7].position.x &&
+                       pose.keypoints[10].position.x < pose.keypoints[8].position.x &&
+                       pose.keypoints[9].position.y < pose.keypoints[7].position.y &&
+                       pose.keypoints[10].position.y < pose.keypoints[8].position.y) {
+                document.getElementById("emotion").innerHTML = sad();
+                document.getElementById("seconds3").innerHTML = sad_seconds();
+                document.getElementById("count3").innerHTML = sad_count();
+            } else if (pose.keypoints[9].position.x < pose.keypoints[5].position.x &&
+                       pose.keypoints[10].position.x > pose.keypoints[6].position.x &&
+                       pose.keypoints[9].position.y < pose.keypoints[7].position.y &&
+                       pose.keypoints[10].position.y < pose.keypoints[8].position.y) {
+                document.getElementById("emotion").innerHTML = scary();
+                document.getElementById("seconds4").innerHTML = scary_seconds();
+                document.getElementById("count4").innerHTML = scary_count();
+            } else {
+                document.getElementById("emotion").innerHTML = "No Emotions";
+            }              
+```
+
 ## Okay, that's it, good luck!
