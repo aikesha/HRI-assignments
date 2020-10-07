@@ -37,7 +37,8 @@ exit()
 ```python
 python test-4.py
 ```
-<img src="images/nao_robot.jpg"
+![Nao Robot](images/nao_robot.jpg)
+
 
 
 ## Good Luck!
