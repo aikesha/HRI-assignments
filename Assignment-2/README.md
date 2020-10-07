@@ -1,6 +1,6 @@
 # ROBT 414 Programming Assignment 2
 ### Note: This assignment is about a “Follow Me” application on a NAO robot using Python NaoQi.
-Youtube -> [here](https://youtu.be/YIftSNFQ2hc)
+The result in Youtube -> [here](https://youtu.be/YIftSNFQ2hc)
 ## Requirements:
 * Ubuntu 16.04 (also you can use Win or Mac)
 * Python 2.7.12
