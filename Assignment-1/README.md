@@ -4,7 +4,7 @@
 
 This package contains a standalone model called PoseNet, as well as some demos, for running real-time pose estimation in the browser using ml5.js.
 
-<img src="images/emotions.png" alt="emotions" style="width: 600px;"/>
+<img src="images/emotions.jpg" alt="emotions" style="width: 600px;"/>
 
 The main goal of this program was to detect poses, and use them for detecting emotions by body poses.
 
